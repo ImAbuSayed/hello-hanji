@@ -1,1 +1,75 @@
-[Clean lyric will be pushed here]
+import os
+lyrics = """
+ਕਾਲੀ ਰਾਤ ਚ ਲਿਸ਼ਕੇ ਤੇਰੀ glowing skin
+ਮੈਂ ਜਿੱਤਣ ਲਈ ਆਇਆ play to win
+ਤੇਰੇ ਸਾਹਾਂ ਚ ਘੁਲਦਾ ਮੈਂ like a breeze
+ਤੈਨੂੰ ਤੱਕਦਾ ਰਹਿੰਦਾ ਮੈਂ feeling the tease
+ਤੇਰੇ ਕਦਮਾਂ ਦੀ ਆਹਟ moving so slow
+ਮੇਰੇ ਦਿਲ ਨੂੰ ਜਗਾਵੇ with that glow
+ਮੈਂ ਤੇਰੇ ਤੇ ਮਰਦਾ giving my all
+ਮੈਂ ਸੁਣਦਾ ਹਾਂ ਤੇਰੀ midnight call
+ਧੁੰਦਲੀ ਜਿਹੀ ਲਾਈਟ ਚ shining bright
+ਤੇਰੇ ਬੁੱਲ੍ਹਾਂ ਦੀ ਚੁੱਪ ਚੁੱਕੇ tension tonight
+ਮੈਂ ਜਾਮ ਬਣਾਉਂਦਾ pouring my soul
+ਤੇਰੀ ਇੱਕ ਮੁਸਕਾਨ ਲਵੇ taking control
+ਕੱਚ ਦੀਆਂ ਗਲਾਸੀਆਂ ਚੋਂ spilling the ice
+ਤੇਰੇ ਨਖਰੇ ਅਦਾਵਾਂ ਲੱਗਣ so nice
+ਮੈਂ ਕੱਲਾ ਖੜ੍ਹਾ ਹਾਂ watching your move
+ਸਾਡੀ ਨਜ਼ਰਾਂ ਦੀ ਖੇਡ breaking the rules
+ਹਵਾਵਾਂ ਚ ਰਚੀ ਆ heavy perfume
+ਤੇਰੀ ਖੁਸ਼ਬੂ ਨੇ ਭਰਿਆ empty room
+ਮੈਂ ਹੋਸ਼ ਭੁਲਾ ਬੈਠਾ losing my mind
+ਤੇਰੇ ਵਰਗੀ ਨਾ ਦੁਨੀਆ ਚ hard to find
+ਹੈਲੋ ਹਾਂਜੀ ਤੂੰ ਆਖੇ make me insane
+ਤੇਰੀਆਂ ਗੱਲਾਂ ਚ ਭਿੱਜਿਆ like the rain
+ਮੇਰੇ ਦਿਲ ਤੇ ਤੂੰ ਛਾ ਗਈ total eclipse
+ਤੇਰਾ ਨਾਮ ਹੀ ਲੈਂਦੇ my frozen lips
+ਮੈਂ ਤੈਨੂੰ ਹੀ ਮੰਗਦਾ praying for you
+ਮੇਰੇ ਸੁਪਨਿਆਂ ਵਿੱਚ ਸਿਰਫ your view
+ਤੂੰ ਨੇੜੇ ਜਦੋਂ ਆਵੇਂ stopping my breath
+ਮੈਂ ਆਸ਼ਿਕ ਹਾਂ ਤੇਰਾ loving till death
+ਇੰਜਣ ਦੀ ਗਰਜ ਨਾਲ roaring so loud
+ਮੈਂ ਧੂੰਏਂ ਚ ਗੁਆਚਾ leaving the crowd
+ਮੇਰੇ ਹੱਥਾਂ ਚ ਪਹੀਆ shifting the gear
+ਤੇਰੇ ਇਸ਼ਕੇ ਦਾ ਨਸ਼ਾ lifting my fear
+ਜ਼ਹਿਰੀਲੀ ਜਿਹੀ ਲੱਗਦੀ toxic romance
+ਮੈਂ ਸਭ ਕੁਝ ਹਾਰਿਆ taking a chance
+ਮੇਰੇ ਯਾਰਾਂ ਦੀ ਯਾਰੀ standing so tall
+ਮੈਂ ਸਭ ਕੁਝ ਵਾਰਦਾ giving my all
+ਹਵਾਵਾਂ ਚ ਰਚੀ ਆ heavy perfume
+ਤੇਰੀ ਖੁਸ਼ਬੂ ਨੇ ਭਰਿਆ empty room
+ਮੈਂ ਹੋਸ਼ ਭੁਲਾ ਬੈਠਾ losing my mind
+ਤੇਰੇ ਵਰਗੀ ਨਾ ਦੁਨੀਆ ਚ hard to find
+ਹੈਲੋ ਹਾਂਜੀ ਤੂੰ ਆਖੇ make me insane
+ਤੇਰੀਆਂ ਗੱਲਾਂ ਚ ਭਿੱਜਿਆ like the rain
+ਮੇਰੇ ਦਿਲ ਤੇ ਤੂੰ ਛਾ ਗਈ total eclipse
+ਤੇਰਾ ਨਾਮ ਹੀ ਲੈਂਦੇ my frozen lips
+ਮੈਂ ਤੈਨੂੰ ਹੀ ਮੰਗਦਾ praying for you
+ਮੇਰੇ ਸੁਪਨਿਆਂ ਵਿੱਚ ਸਿਰਫ your view
+ਤੂੰ ਨੇੜੇ ਜਦੋਂ ਆਵੇਂ stopping my breath
+ਮੈਂ ਆਸ਼ਿਕ ਹਾਂ ਤੇਰਾ loving till death
+ਕੱਚੇ ਜਿਹੇ ਵਾਅਦੇ breaking my heart
+ਮੈਂ ਫਿਰ ਵੀ ਹਾਂ ਤੇਰਾ right from the start
+ਮੇਰੇ ਹੰਝੂ ਵੀ ਸੁੱਕ ਗਏ feeling the pain
+ਤੇਰੇ ਪਿੱਛੇ ਮੈਂ ਭੱਜਦਾ running in vain
+ਪਰ ਮੁੜ ਕੇ ਤੂੰ ਤੱਕਿਆ holding my stare
+ਮੇਰੀ ਬਰਫ਼ ਜਿਹੀ ਰੂਹ ਤੇ showing you care
+ਮੈਂ ਬਦਲਿਆ ਖੁਦ ਨੂੰ changing my way
+ਤੂੰ ਰਹਿ ਮੇਰੇ ਕੋਲ never walk away
+I watch the shadows trace your silhouette
+A midnight memory I won't forget
+Your magnetic energy pulls me near
+Sayed is whispering right in your ear
+I want to hold you till the morning light
+Just surrender to this feeling tonight
+ਹੈਲੋ ਹਾਂਜੀ ਤੂੰ ਆਖੇ make me insane
+ਤੇਰੀਆਂ ਗੱਲਾਂ ਚ ਭਿੱਜਿਆ like the rain
+ਮੇਰੇ ਦਿਲ ਤੇ ਤੂੰ ਛਾ ਗਈ total eclipse
+ਤੇਰਾ ਨਾਮ ਹੀ ਲੈਂਦੇ my frozen lips
+ਮੈਂ ਤੈਨੂੰ ਹੀ ਮੰਗਦਾ praying for you
+ਮੇਰੇ ਸੁਪਨਿਆਂ ਵਿੱਚ ਸਿਰਫ your view
+ਅਸੀਂ ਤਾਰਿਆਂ ਤੋਂ ਪਾਰ touching the sky
+ਮੈਂ ਤੇਰਾ ਹੋ ਗਿਆ never say goodbye
+"""
+with open("hello-hanji-private/lyric-raw.txt", "w", encoding="utf-8") as f:
+f.write.. lyrics..
