@@ -1,0 +1,7 @@
+import os
+
+lyrics = """[Hook 1]
+ਕਾਲੀ ਰਾਤ ਚ ਲਿਸ਼ਕੇ ਤੇਰੀ glowing skin
+ਮੈਂ ਜਿੱਤਣ ਲਈ ਆਇਆ play to win
+ਤੇਰੇ ਸਾਹਾਂ ਚ ਘੁਲਦਾ ਮੈਂ like a breeze
+ਤੈਨੂੰ ਤੱਕਦਾ ਰਹਿੰਦਾ ਮੈਂ feeling the tease

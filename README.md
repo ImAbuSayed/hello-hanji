@@ -15,7 +15,7 @@
 | **Written On** | May 18, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/hello-hanji/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Commercial Licensing for Hello Hanji](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/hello-hanji/) |
+| **Get License** | [License this song: Hello Hanji](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/hello-hanji/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -110,7 +110,7 @@ This song is an original creative work by Abu Sayed. All lyrics, melody, and com
 |:-------------------|:------------|
 | **Author** | Abu Sayed |
 | **Version** | `v1` |
-| **SHA-256 Hash** | `N/A` |
+| **SHA-256 Hash** | `27fdac94cdb54832723e825c5521a5bd99b3f248abbca92fe190417eaf8ef757` |
 | **Timestamp** | May 20, 2026 |
 
 See [LICENSE.md](./LICENSE.md) for full terms and conditions.

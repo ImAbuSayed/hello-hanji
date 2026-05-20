@@ -1,0 +1,12 @@
+ਹੈਲੋ ਹਾਂਜੀ ਤੂੰ ਆਖੇ make me insane
+ਤੇਰੀਆਂ ਗੱਲਾਂ ਚ ਭਿੱਜਿਆ like the rain
+ਮੇਰੇ ਦਿਲ ਤੇ ਤੂੰ ਛਾ ਗਈ total eclipse
+ਤੇਰਾ ਨਾਮ ਹੀ ਲੈਂਦੇ my frozen lips
+ਮੈਂ ਤੈਨੂੰ ਹੀ ਮੰਗਦਾ praying for you
+ਮੇਰੇ ਸੁਪਨਿਆਂ ਵਿੱਚ ਸਿਰਫ your view
+ਅਸੀਂ ਤਾਰਿਆਂ ਤੋਂ ਪਾਰ touching the sky
+ਮੈਂ ਤੇਰਾ ਹੋ ਗਿਆ never say goodbye
+"""
+
+with open("hello-hanji-private/lyric-raw.txt", "w", encoding="utf-8") as f:
+    f.write(lyrics)
