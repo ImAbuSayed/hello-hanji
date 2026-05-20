@@ -15,7 +15,7 @@
 | **Written On** | May 18, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/hello-hanji/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Secure Licensing Rights for Hello Hanji](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/hello-hanji/) |
+| **Get License** | [Commercial Licensing for Hello Hanji](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/hello-hanji/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -32,7 +32,10 @@
 
 ## 📝 Lyric Preview
 
-> [Excerpt will appear here after the final lyric is saved.]
+> import os
+> lyrics = """
+> ਕਾਲੀ ਰਾਤ ਚ ਲਿਸ਼ਕੇ ਤੇਰੀ glowing skin
+> ਮੈਂ ਜਿੱਤਣ ਲਈ ਆਇਆ play to win
 > ...
 
 [**View Full Lyrics**](./lyrics.txt) | [**View Metadata**](./manifest.json) | [**View Proofs**](./hashes.txt)
